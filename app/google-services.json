@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "32622963229",
+    "firebase_url": "https://moviedp-75c28.firebaseio.com",
+    "project_id": "moviedp-75c28",
+    "storage_bucket": "moviedp-75c28.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:32622963229:android:a79248e85ab89fd0bef4f4",
+        "android_client_info": {
+          "package_name": "com.example.moviedp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "32622963229-m04034aqne41b8sn48h5kic9lc9t8s7r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXpkrMohY_szk1IhQJy8CiWIGjln7_CgI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "32622963229-m04034aqne41b8sn48h5kic9lc9t8s7r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
