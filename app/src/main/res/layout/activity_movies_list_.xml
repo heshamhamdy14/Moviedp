@@ -1,20 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/opengray"
-    android:orientation="vertical"
+    android:background="@color/offwhite"
     tools:context=".MoviesList_Act">
 
     <include
         layout="@layout/movieslist_toolbar"/>
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/list_id"
+    <FrameLayout
+        android:id="@+id/framelayout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:padding="10dp"/>
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_above="@+id/page1"/>
 
-</LinearLayout>
+        <Button
+            android:id="@+id/page1"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:background="@color/white"
+            android:text="1"
+            android:textColor="@color/black"
+            android:layout_marginTop="3dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="3dp"/>
+
+        <Button
+            android:id="@+id/page2"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:background="@color/white"
+            android:text="2"
+            android:textColor="@color/black"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/page1"
+            android:layout_marginTop="3dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="3dp"/>
+
+<!--    <androidx.recyclerview.widget.RecyclerView-->
+<!--        android:id="@+id/list_id"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:padding="10dp"/>-->
+
+</RelativeLayout>

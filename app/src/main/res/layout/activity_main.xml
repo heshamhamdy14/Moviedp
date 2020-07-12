@@ -8,7 +8,7 @@
     android:orientation="vertical"
     android:gravity="center"
     android:padding="8dp"
-    android:background="#673AB7"
+    android:background="@color/white"
     tools:context=".Login_Act">
 
     <ImageView
@@ -21,19 +21,19 @@
         android:id="@+id/login_email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:hint="Email"
-        android:textColorHint="@color/white"
+        android:textColorHint="@color/gray"
         android:maxLines="1"/>
 
     <EditText
         android:id="@+id/login_password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:hint="Password"
         android:inputType="textPassword"
-        android:textColorHint="@color/white"
+        android:textColorHint="@color/gray"
         android:layout_marginTop="10dp"
         android:maxLines="1"/>
 
@@ -45,7 +45,7 @@
         android:textColor="@color/white"
         android:textSize="20sp"
         android:layout_marginTop="30dp"
-        android:background="#d84d98" />
+        android:background="@color/colorPrimary" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -58,7 +58,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Dont Have An Account ?"
-            android:textColor="@color/white" />
+            android:textColor="@color/gray" />
 
         <TextView
             android:id="@+id/signup_act"
@@ -66,7 +66,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="15dp"
             android:text="SignUp"
-            android:textColor="#d84d98"
+            android:textColor="@color/black"
             android:textStyle="bold"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
         />

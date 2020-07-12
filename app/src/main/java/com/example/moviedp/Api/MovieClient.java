@@ -26,9 +26,14 @@ public class MovieClient {
         return instance;
     }
 
-    public Call<MovieModel> getmovies(){
+    public Call<MovieModel> getmoviesforpage1(){
        // return movieInterface.getmovies("popular","09d250566c89bfaf1a7a9f6ed6bb02cb","en-US",2);
         return movieInterface.getmovies("popular","09d250566c89bfaf1a7a9f6ed6bb02cb","en-US",1);
+
+    }
+    public Call<MovieModel> getmoviesforpage2(){
+        // return movieInterface.getmovies("popular","09d250566c89bfaf1a7a9f6ed6bb02cb","en-US",2);
+        return movieInterface.getmovies("popular","09d250566c89bfaf1a7a9f6ed6bb02cb","en-US",2);
 
     }
 
