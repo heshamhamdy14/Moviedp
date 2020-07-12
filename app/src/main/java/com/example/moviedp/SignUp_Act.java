@@ -59,6 +59,7 @@ public class SignUp_Act extends AppCompatActivity {
             public void onSuccess(AuthResult authResult) {
                 Toast.makeText(SignUp_Act.this, "Successfully Registration", Toast.LENGTH_SHORT).show();
                 startActivity(new Intent(SignUp_Act.this, MoviesList_Act.class));
+                finish();
             }
         }).addOnFailureListener(new OnFailureListener() {
             @Override
